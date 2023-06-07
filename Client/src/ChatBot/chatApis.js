@@ -1,7 +1,7 @@
 export const sendNewMsgs = async (data) => {
     console.log(data);
-  // const res = await fetch(`${process.env.REACT_APP_RASA}`, {
-  const res = await fetch(`http://localhost:5005/webhooks/rest/webhook`, {
+  const res = await fetch(`${process.env.REACT_APP_RASA}`, {
+  // const res = await fetch(`http://localhost:5005/webhooks/rest/webhook`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

@@ -26,6 +26,6 @@ client/yarn-error.log*
 client/.env
 client/appointmentAppServerLocal.war
 
-ChatBot/models/202*
+ChatBot/models/*
 ChatBot/venv
 ChatBot/actions/__pycache__
